@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<!--Alison Valadez
+5i
+0669-->
+
+<head>
+   <meta charset='UTF-8'>
+   <meta name='viewport' content='device=content-width', initial-scale=1.0>
+   <title>Formularios en html</title>
+   <!-- Libreria de iconos en linea -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+    awesome/7.3.1/css/all.min.css">
+</head>
+
+<body>
+	<h1>Formularios</h1>
+    <p>Un formulario permite al visitante cargar datos y que sean enviados al servidor</p>
+    <p>El HTML no tiene la responsabilidad de registrar todos los datos en el servidor, esta actividad se delega a través de un lenguaje que se ejecute en el servidor (PHP, ASP, NET, NODE, etc.)</p>
+    <h2>EJEMPLO BÁSICO</h2>
+    <form action="" method="post"> <!--Form: crea un contenedor para recolectar los datos del usuario | action. Hacia donde se van a enviar los datos, como esta vacio, se enviaran a la misma pagina del formulario | method: Hace que los datos viajen seguros-->
+    	Ingresa tu nombre:
+    	<input type="text" name="nombre" size="20"> <!--Input: Accion para poder interactuar con botones y de más, aqui, ingresar texto | type: tipo de caracteres permitidos | -->
+    	<br>
+    	<input type="submit" value="Enviar"><!-- Input: accion para poder interactuarvalue: lo que ve el usuario en el boton | type: accion que se quiere ejecutar | value: Lo que el susuario verá en el botón-->
+    </form>
+
+</body>
+</html>
