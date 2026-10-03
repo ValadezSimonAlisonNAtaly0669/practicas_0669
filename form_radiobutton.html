@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Alison Valadez
+5i
+0669-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Radiobotón</title>
+</head>
+<body>
+    <h2>Formularios con Radioboton</h2>
+    <form action="" method="post">
+        Ingresa tu nombre:
+        <input type="text" name="nombre">
+        <br>
+        Selecciona el maximo de estudios que tienes:
+        <br>
+        <input type="radio" name="estudios" value="1">Sin estudios <br><!-- type:radio; Crea un botón circular que el usuario puede marcar haciendo clic, los botones de radio se usan cuando el usuario solo debe seleccionar una única opción | name: nombre del grupo. Si varios botones de radio tienen el mismo atributo name="estudios", el navegador los vincula para que solo se pueda seleccionar uno a la vez | Es el valor que se enviará internamente al servidor si el usuario elige esta opción. El usuario no lo ve en la pantalla, pero le sirve al sistema para saber que la opción seleccionada equivale a la opción número 1  | sin estudios: texto visible que lee el usuario--> 
+        <input type="radio" name="estudios" value="2">Primaria <br>
+        <input type="radio" name="estudios" value="3">Secundaria <br>
+        <input type="radio" name="estudios" value="4">Preparatoria <br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="borrar">
+    </form>
+</body>
+</html>

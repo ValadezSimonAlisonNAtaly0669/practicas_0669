@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Alison Valadez
+5i
+0669-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Agrupamiento</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+<body>
+    <h2>Formularios con agrupamiento</h2>
+    <form action="" method="post">
+        <fieldset><!--<fieldset>: Crea un recuadro o marco visual para agrupar campos relacionados. | <legend>Datos personales</legend>: Pone un título en el borde superior del marco para indicar qué sección es.-->
+            <legend>Datos personales</legend>
+            Nombre y apellido:
+            <input type="text" name="nombre_apellido"><br><!--Para ingresar texto-->
+            Documento valido:
+            <input type="file" name="documento"><br> <!--Para subir documwntos-->
+            Fecha de nacimiento:
+            <input type="date" name="fecha_nacimiento"> <!--Pone un calendario-->
+        </fieldset>
+        <fieldset>
+            <legend>Datos de estudio:</legend>
+            Nombre de la escuela:
+            <input type="text" name="escuela"><br>
+            Certificado valido:
+            <input type="file" name="certificado"><br>
+            Fecha de egreso:
+            <input type="date" name="fecha_egreso">
+        </fieldset>
+        <br>
+        <button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i></button>
+        <button type="reset">Borrar <i class="fa fa-trash"></i></button>
+    </form>
+</body>
+</html>
